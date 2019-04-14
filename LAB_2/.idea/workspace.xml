@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7d395cc-5c4d-4ca1-b924-458b567a25bf" name="Default Changelist" comment="" />
+    <list default="true" id="f7d395cc-5c4d-4ca1-b924-458b567a25bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../LAB_1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../LAB_1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SORT/Generatiom_Massive_class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SORT/Generatiom_Massive_class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SORT/Selection_SORT_class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SORT/Selection_SORT_class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/SORT/main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/SORT/main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,27 +18,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../JavaLearning/src/first.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="84" column="39" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+            <state relative-caret-position="732">
+              <caret line="111" column="47" selection-start-line="111" selection-start-column="47" selection-end-line="111" selection-end-column="47" />
               <folding>
-                <element signature="class#main#0" />
                 <element signature="class#Generatiom_Massive_class#0" />
-                <element signature="class#Selection_SORT_class#0" />
+                <element signature="method#Selection_SORT#0;class#Selection_SORT_class#0" />
+                <element signature="method#Insertion_SORT#0;class#Selection_SORT_class#0" />
+                <element signature="method#QuickSort#0;class#Selection_SORT_class#0" />
+                <element signature="method#Partition#0;class#Selection_SORT_class#0" />
+                <element signature="method#FinalShow#0;class#Selection_SORT_class#0" />
               </folding>
             </state>
           </provider>
@@ -46,6 +44,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -54,11 +55,11 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="739" />
-    <option name="y" value="12" />
-    <option name="width" value="1400" />
-    <option name="height" value="985" />
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1057" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -68,28 +69,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="SORT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SORT" type="462c0819:PsiDirectoryNode" />
+              <item name="LAB_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB_2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SORT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SORT" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SORT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SORT" type="462c0819:PsiDirectoryNode" />
-              <item name="out" type="462c0819:PsiDirectoryNode" />
-              <item name="production" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SORT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SORT" type="462c0819:PsiDirectoryNode" />
+              <item name="LAB_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB_2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="SORT" type="b2602c69:ProjectViewProjectNode" />
-              <item name="SORT" type="462c0819:PsiDirectoryNode" />
+              <item name="LAB_2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAB_2" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
@@ -102,8 +92,8 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553072607408" />
-    <property name="last_opened_file_path" value="F:/HUB_LABS/Labs_for_JAVA/LAB_1/JavaLearning/out/production/JavaLearning/Generatiom_Massive_class.class" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555144261831" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LAB_1" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -149,18 +139,19 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25266525" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.04317697" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3290461" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.3290461" />
-      <window_info anchor="bottom" id="Version Control" order="3" />
+      <window_info anchor="bottom" id="Version Control" order="3" weight="0.3290461" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.3290461" />
@@ -192,24 +183,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../JavaLearning/src/first.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="84" column="39" lean-forward="true" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/../JavaLearning/src/first.java" />
+    <entry file="file://$PROJECT_DIR$/../LAB_1/JAVA_PRODJ.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="102" column="1" lean-forward="true" selection-start-line="102" selection-start-column="1" selection-end-line="102" selection-end-column="1" />
+        <state relative-caret-position="732">
+          <caret line="111" column="47" selection-start-line="111" selection-start-column="47" selection-end-line="111" selection-end-column="47" />
           <folding>
-            <element signature="class#main#0" />
             <element signature="class#Generatiom_Massive_class#0" />
-            <element signature="class#Selection_SORT_class#0" />
+            <element signature="method#Selection_SORT#0;class#Selection_SORT_class#0" />
+            <element signature="method#Insertion_SORT#0;class#Selection_SORT_class#0" />
+            <element signature="method#QuickSort#0;class#Selection_SORT_class#0" />
+            <element signature="method#Partition#0;class#Selection_SORT_class#0" />
+            <element signature="method#FinalShow#0;class#Selection_SORT_class#0" />
           </folding>
         </state>
       </provider>
