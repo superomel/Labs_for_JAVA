@@ -29,19 +29,14 @@ public class lab_5 {
             }
 
         } while (exit_label==0);
-
-
     }
 
     public static void Nuton()
     {
 
-        double eps =0.0001;
-        double X = -2;
-        double Xbuf = X;
+        double eps =0.0001, X = -2, Xbuf = X;
         int I =0;
-        do
-        {
+        do{
             I++;
             Xbuf = X;
             X = X - f(X)/df(X);
@@ -55,49 +50,31 @@ public class lab_5 {
         System.out.println(I);
     }
 
-    public static void half_div()
-    {
-
-        double eps =0.0001;
-        double a= - 1;
-        double b = 2;
-        double c;
+    public static void half_div(){
+        double eps =0.0001,a= - 1,b = 2,c;
         int I =0;
-
         do {
-
             c =  ((b + a)/2);
 
             if(f(a)*f(c) < 0){ b  = c;}
             if(f(c)*f(b) < 0){ a  = c;}
             I++;
-
         }
         while(Math.abs(a-b) > eps);
         System.out.println("Метод деления пополам:\n X = ");
         System.out.println(c);
         System.out.print("кол-во итераций: ");
         System.out.println(I);
-
     }
 
 
-    public static void simple_iter()
-    {
-
-        double eps =0.0001;
-        double X = -2;
-        double Xbuf = X;
-        int I =0;
-        double a = -0.2;
-        do
-        {
+    public static void simple_iter(){
+        double eps =0.0001, X = -2,Xbuf = X,a=-0,2;
+        int I = 0;
+        do{
             I++;
             Xbuf = X;
-
-
             X = X + f(X)*a;
-
         }
         while(Math.abs(Xbuf-X)>eps);
 
