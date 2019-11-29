@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 import java.util.Scanner;
 
-public class lab extends Application {
+public class laba_7 extends Application {
 
     public static void main(String[] args)
     {
@@ -22,17 +22,19 @@ public class lab extends Application {
             temp= scanner.nextLine();
             temp_int=Integer.parseInt(temp);
             switch(temp_int){
-                case 1:metod1();  //метод Эйлера
-                    launch(args);
+                case 1:EILER();  //метод Эйлера
                     exit_label = 1;
                     method_name = "метод Эйлера";
-                    break;
-                case 2:metod2();  //метод Рудге-Кука
                     launch(args);
+
+                    break;
+                case 2:KUK();  //метод Рудге-Кука
                     exit_label = 1;
                     method_name = "метод Рудге-Кука";
-                     break;
-                default:metod1();  //метод Эйлера
+                    launch(args);
+
+                    break;
+                default:EILER();  //метод Эйлера
                     launch(args);
                     exit_label = 1;
                     method_name = "метод Эйлера";
@@ -58,7 +60,7 @@ public class lab extends Application {
                 lineChart = new LineChart<Number, Number>(xAxis, yAxis);
         lineChart.setTitle("f(x)"); //задание серии табличных данных
         XYChart.Series series = new XYChart.Series();
-        series.setName("Table data"); //заполнение таблицы данных
+            series.setName(method_name); //заполнение таблицы данных
         double x0 = 0;
         double dx = 0.1;
         for (int i = 0; i < I; i++) {
@@ -73,8 +75,8 @@ public class lab extends Application {
     }
 
 
-    public static void metod1(){
-       double x0 = 0, y0 = 2;
+    public static void EILER(){
+        double x0 = 0, y0 = 4;
         double a  = 0, b = 1;
         X  = new double[I];
         Y  = new double[I];
@@ -84,11 +86,11 @@ public class lab extends Application {
 
         for (int i = 1; i<I; i++){
             X[i] = x0+(i*h);
-            Y[i] = Y[i-1] +h*f(X[i-1]);
+            Y[i] = Y[i-1] +h*f(X[i-1],Y[i-1]);
         }
     }
-    public static void metod2(){
-        double x0 = 0, y0 = 2;
+    public static void KUK(){
+        double x0 = 0, y0 = 4;
         double a  = 0, b = 1;
         X  = new double[I];
         Y  = new double[I];
@@ -96,26 +98,26 @@ public class lab extends Application {
         X[0] = x0;
         Y[0] = y0;
 
-        double k1 = f(x0);
-        double k2 = f(x0+(h/2));
-        double k3 = f(x0+(h/2));
-        double k4 = f(x0+h);
+        double k1 = f(x0,y0);
+        double k2 = f(x0+(h/2),y0+k1*(h/2));
+        double k3 = f(x0+(h/2),y0+k2*(h/2));
+        double k4 = f(x0+h,y0+k3*h);
 
         for (int i = 1; i<I; i++){
             X[i] = x0+(i*h);
             Y[i] = Y[i-1] +(h/6)*(k1+2*k2+2*k3+k4);
 
-            k1 = f(X[i]);
-            k2 = f(X[i]+(h/2));
-            k3 = f(X[i]+(h/2));
-            k4 = f(X[i]+h);
+            k1 = f(X[i],Y[i]);
+            k2 = f(X[i]+(h/2),Y[i]+k1*(h/2));
+            k3 = f(X[i]+(h/2),Y[i]+k2*(h/2));
+            k4 = f(X[i]+h,Y[i]+k3*h);
         }
 
 
     }
 
-    public static double f(double x){
-        return 3+2*x*x;
+    public static double f(double x, double y){
+        return y - 2*x*x + 3 ;
     }
 }
 

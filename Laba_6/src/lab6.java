@@ -33,41 +33,42 @@ public class lab6 {
         } while (exit_label==0);
 
     }
+;
+    static double fnc(double x){
+        return (3*x*x-Math.sqrt(x));
+    }
 
-    static double fnc(double x){return (2*x*x - Math.sqrt(x+3));}
-
-    static void box()
-    {
-        double res = 0, a = -2,b = 4;
+    static void box(){
+        double a=1,b=3;
+            double res = 0;
         double h = 0.01;
         while (a<b){
             res += h*fnc(a);
             a+=h;
         }
-        System.out.println("Метод прямоугольников\n");
-        System.out.println("Площадь S=");
+        System.out.println("Метод прямоугольников");
+        System.out.print("Площадь S=");
         System.out.println(res);
     }
 
-    static void trap()
-    {
-        double res = 0,a = -2, b = 4;
+    static void trap(){
+        double a=1,b=3;
+        double res = 0;
         double h = 0.001;
         while (a<b){
             res += h*(fnc(a)+fnc(a+h))/2;
             a+=h;
         }
-        System.out.println("Метод трапеций\n");
+        System.out.println("Метод трапеций");
         System.out.print("Площадь S=");
-        System.out.print(res);
+        System.out.println(res);
     }
 
-    static void parab()
-    {
-        double res1 = 0,res2 = 0, a = -2, b = 4;
+    static void parab(){
+        double a=1,b=3;
+        double res1 = 0,res2 = 0;
         double h = 0.00001;
         int I = (int)((b-a)/h);
-        // res += ((h)/3)*(fnc(a)+4*fnc(a+(h/2))+fnc(a+h));
 
         for (int i = 1; i<=I; i+=2){
             res1 += fnc(a+((i-1)*h));
@@ -77,8 +78,8 @@ public class lab6 {
             res2 += fnc(a+(i*h));
         }
         double R = (h/3)*(fnc(a)+ 4*res1+2*res2+fnc(b));
-        System.out.println("Метод парабол\n");
-        System.out.println("Площадь S=");
+        System.out.println("Метод парабол");
+        System.out.print("Площадь S=");
         System.out.println(R);
     }
 

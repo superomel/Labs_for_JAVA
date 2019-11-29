@@ -5,7 +5,7 @@ import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
 
-public class grafic extends Application {
+public class grafica extends Application {
     @Override public void start(Stage stage) {
         stage.setTitle("Line Chart");
         //задание осей
@@ -19,11 +19,11 @@ public class grafic extends Application {
         lineChart.setTitle("f(x)");
         //задание серии табличных данных
         XYChart.Series series = new XYChart.Series();
-        series.setName("Math.pow(x,3)+4*x-4");
+        series.setName("3x*x-Math.sqrt(x)");
         //заполнение таблицы данных
-        double x0=-2;
-        double dx=0.08;
-        for (int i=0; i<61; i++) {
+        double x0=0;
+        double dx=0.1;
+        for (int i=0; i<32; i++) {
             series.getData().add(new XYChart.Data(x0+i*dx, f(x0+i*dx)));
         }
 
@@ -39,6 +39,6 @@ public class grafic extends Application {
     }
     //функция
     public static double f(double x){
-        return Math.pow(x,3)+4*x-4;
+        return 3*x*x-Math.sqrt(x);
     }
 }
