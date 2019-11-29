@@ -3,6 +3,7 @@ public class lab_5 {
 
 
     public static void main (String [] args){
+
         Scanner scanner = new Scanner( System.in );
         int exit_label=0;
         String temp;
@@ -44,7 +45,7 @@ public class lab_5 {
         }
         while(Math.abs(Xbuf-X)>eps);
 
-        System.out.println("Метод Ньютона:\n X = ");
+        System.out.print("Метод Ньютона:\n X = ");
         System.out.println(X);
         System.out.print("кол-во итераций: ");
         System.out.println(I);
@@ -61,7 +62,7 @@ public class lab_5 {
             I++;
         }
         while(Math.abs(a-b) > eps);
-        System.out.println("Метод деления пополам:\n X = ");
+        System.out.print("Метод деления пополам:\n X = ");
         System.out.println(c);
         System.out.print("кол-во итераций: ");
         System.out.println(I);
@@ -69,7 +70,7 @@ public class lab_5 {
 
 
     public static void simple_iter(){
-        double eps =0.0001, X = -2,Xbuf = X,a=-0,2;
+        double eps =0.0001, X = -2, Xbuf = X, a= -0.2;
         int I = 0;
         do{
             I++;
@@ -78,7 +79,7 @@ public class lab_5 {
         }
         while(Math.abs(Xbuf-X)>eps);
 
-        System.out.println("Метод простых итераций:\n X = ");
+        System.out.print("Метод простых итераций:\n X = ");
         System.out.println(X);
         System.out.print("кол-во итераций: ");
         System.out.println(I);
@@ -86,11 +87,11 @@ public class lab_5 {
 
 
     public static double f(double x){		// Функция
-        return Math.pow(x,3)+3*x-1;
+        return Math.pow(x,3)+4*x-4;
     }
 
-    public static double df(double x){
-        return Math.pow(x,2)*3+3;
+    public static double df(double x){      // первая производная от функции
+        return Math.pow(x,2)*3+4;
     }
 
 }
