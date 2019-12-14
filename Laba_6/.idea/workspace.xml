@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="50aafeb2-c37e-49f9-bde6-90cd970e2fce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/lab6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lab6.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba_5/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba_5/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Laba_5/out/production/Laba_5/grafic.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Laba_5/out/production/Laba_5/grafic.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../laba_7/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../laba_7/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laba_7/out/production/laba_7/lab.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../laba_7/src/lab.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,30 +18,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/lab6.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+            <state relative-caret-position="-20">
+              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
               <folding>
-                <element signature="e#1177#1178#0" expanded="true" />
-                <element signature="e#1224#1225#0" expanded="true" />
+                <element signature="e#1178#1179#0" expanded="true" />
+                <element signature="e#1221#1222#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/grafica.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="49" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="49" />
+            <state relative-caret-position="357">
+              <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1201#1202#0" expanded="true" />
-                <element signature="e#1229#1230#0" expanded="true" />
-                <element signature="e#1281#1282#0" expanded="true" />
-                <element signature="e#1307#1308#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,7 +75,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -98,6 +92,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -156,8 +151,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11247335" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11353944" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -185,18 +181,6 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/lab6.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../grafica/src/grafic.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -211,27 +195,23 @@
     <entry file="file://$PROJECT_DIR$/../laba_7/src/laba_7.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lab6.java">
+    <entry file="file://$PROJECT_DIR$/src/grafica.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="67" column="23" selection-start-line="67" selection-start-column="23" selection-end-line="67" selection-end-column="23" />
+        <state relative-caret-position="357">
+          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
           <folding>
-            <element signature="e#1177#1178#0" expanded="true" />
-            <element signature="e#1224#1225#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/grafica.java">
+    <entry file="file://$PROJECT_DIR$/src/lab6.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="49" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="49" />
+        <state relative-caret-position="-20">
+          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1229#1230#0" expanded="true" />
-            <element signature="e#1281#1282#0" expanded="true" />
-            <element signature="e#1307#1308#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
           </folding>
         </state>
       </provider>
